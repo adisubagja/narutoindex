@@ -1,6 +1,6 @@
 
 
-# GoIndex-theme-acrou 
+# Naruto Index
 Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and [Google Drive](https://www.google.com/drive/) will allow you to index you files on the browser on Cloudflare Workers.    
 
 [go2index/index.js](https://github.com/thomasshelbybot/narutoindex/tree/master/go2index) is the content of the Workers script.  
@@ -35,7 +35,7 @@ This theme's goindex is currently based on [yanzai/goindex](https://github.com/y
 2. Create a [OAuth client ID](https://console.developers.google.com/apis/credentials/oauthclient)
 3. Install [rclone](https://rclone.org/downloads/) software locally
 4. Get `refresh_token ` with `rclone`
-5. Download `index.js` in https://github.com/thomasshelbybot/narutoindex/go2index and replace `client_id`,`client_secret`,`refresh_token` for what you just got.
+5. Download `index.js` in https://github.com/thomasshelbybot/narutoindex/tree/master/go2index and replace `client_id`,`client_secret`,`refresh_token` for what you just got.
 6. Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)
 
 > If you write a good article and want to share it with others, please submit Issues and I will post the link here.
